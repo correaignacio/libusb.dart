@@ -21,6 +21,11 @@ class Timeval extends Struct {
   Abi.windowsArm64: Int32(),
   Abi.windowsIA32: Int32(),
   Abi.windowsX64: Int32(),
+  Abi.androidArm: Int32(),
+  Abi.androidArm64: Int64(),
+  Abi.androidX64: Int64(),
+  Abi.iosArm: Int32(),
+  Abi.iosArm64: Int64(),
 })
 class Susecond extends AbiSpecificInteger {
   const Susecond();
@@ -39,6 +44,11 @@ class Susecond extends AbiSpecificInteger {
   Abi.windowsArm64: Int64(),
   Abi.windowsIA32: Int64(),
   Abi.windowsX64: Int64(),
+  Abi.androidArm: Int32(),
+  Abi.androidArm64: Int64(),
+  Abi.androidX64: Int64(),
+  Abi.iosArm: Int32(),
+  Abi.iosArm64: Int64(),
 })
 class Ssize extends AbiSpecificInteger {
   const Ssize();
